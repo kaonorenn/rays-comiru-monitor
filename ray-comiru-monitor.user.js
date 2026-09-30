@@ -1,8 +1,10 @@
 // ==UserScript==
 // @name         レイズ Comiru専用モニター 8.7.3
 // @namespace    https://ray-school.jp/
-// @version      8.7.3
+// @version      8.7.4
 // @description  レイズ Comiru座席管理 常設モニター + ReaLTE面談連携
+// @updateURL     https://raw.githubusercontent.com/kaonorenn/rays-comiru-monitor/main/ray-comiru-monitor.user.js
+// @downloadURL   https://raw.githubusercontent.com/kaonorenn/rays-comiru-monitor/main/ray-comiru-monitor.user.js
 // @match        https://comiru.jp/ray-school/seat/index*
 // @match        https://comiru.jp/ray-school/*
 // @match        https://comiru.jp/ray-school_ekinan/*
@@ -18,7 +20,7 @@
 (function () {
   'use strict';
 
-  const VERSION = '8.7.3';
+  const VERSION = '8.7.4';
 
   /*
     v7.8 URL ROUTING
